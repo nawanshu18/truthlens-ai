@@ -145,60 +145,6 @@ Development & Deployment
                 │   User Dashboard │
                 └──────────────────┘
 
-⸻
-
-📂 Project Structure
-
-TruthLens-AI/
-│
-├── app/
-│   ├── main.py
-│   │
-│   ├── database/
-│   │   └── db.py
-│   │
-│   ├── models/
-│   │   ├── fake_news_model.pkl
-│   │   └── vectorizer.pkl
-│   │
-│   ├── routes/
-│   │   └── upload.py
-│   │
-│   └── services/
-│       ├── audio_extractor.py
-│       ├── category_detector.py
-│       ├── classifier.py
-│       ├── deepfake_detector.py
-│       ├── explainer.py
-│       ├── keyword_checker.py
-│       ├── ocr_extractor.py
-│       ├── preprocessing.py
-│       ├── report_generator.py
-│       └── transcriber.py
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       │   ├── charts/
-│       │   ├── dashboard/
-│       │   ├── layout/
-│       │   └── ui/
-│       ├── lib/
-│       ├── pages/
-│       ├── services/
-│       │   └── api.js
-│       ├── App.jsx
-│       ├── App.css
-│       ├── index.css
-│       └── main.jsx
-│
-├── requirements.txt
-├── render.yaml
-├── train_model.py
-└── README.md
-
-⸻
 
 ⚙️ Installation
 
@@ -211,33 +157,33 @@ Install the following tools before running the project:
 * Git
 * FFmpeg
 
-Install FFmpeg on macOS:
+##Install FFmpeg on macOS:
 
 brew install ffmpeg
 
-🚀 1. Clone the Repository
+##🚀 1. Clone the Repository
 
 git clone -b deploy-clean https://github.com/nawanshu18/truthlens-ai.git
 
-Navigate to the project directory:
+##Navigate to the project directory:
 
 cd truthlens-ai
 
-🐍 2. Configure the Backend
+##🐍 2. Configure the Backend
 
-Create a virtual environment:
+##Create a virtual environment:
 
 python3 -m venv venv
 
-Activate it on macOS/Linux:
+##Activate it on macOS/Linux:
 
 source venv/bin/activate
 
-Install the dependencies:
+##Install the dependencies:
 
 pip install -r requirements.txt
 
-▶️ 3. Start the Backend
+##▶️ 3. Start the Backend
 
 From the project root, execute:
 
@@ -250,21 +196,21 @@ The backend will run at:
 
 Keep the backend terminal open.
 
-⚛️ 4. Configure the Frontend
+##⚛️ 4. Configure the Frontend
 
 Open a new terminal window and run:
 
 cd truthlens-ai/frontend
 
-Install the frontend dependencies:
+##Install the frontend dependencies:
 
 npm install
 
-Start the development server:
+##Start the development server:
 
 npm run dev
 
-Open the local URL displayed by Vite, usually:
+##Open the local URL displayed by Vite, usually:
 
 http://localhost:5173
 
@@ -406,20 +352,7 @@ The frontend’s API service must support the configured backend URL. Confirm th
 
 ⸻
 
-👨‍💻 Contributors
 
-Project: TruthLens AI
-
-Add the final project team’s details below:
-
-Name	Roll Number	Role
-Project Member 1	Add roll number	Development
-Project Member 2	Add roll number	Development
-Project Member 3	Add roll number	Testing / Documentation
-
-Replace the placeholders with the actual team information before submission.
-
-⸻
 
 📄 License
 
