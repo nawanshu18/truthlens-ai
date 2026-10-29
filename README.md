@@ -69,43 +69,42 @@ Development and Deployment
 
 TruthLens-AI/
 │
-├── app/
-│   ├── main.py
+├── app/                          # FastAPI backend
+│   ├── main.py                   # Application entry point
 │   ├── database/
-│   │   └── db.py
+│   │   └── db.py                 # Database configuration
 │   ├── models/
-│   │   ├── fake_news_model.pkl
-│   │   └── vectorizer.pkl
+│   │   ├── fake_news_model.pkl   # Trained ML model
+│   │   └── vectorizer.pkl        # TF-IDF vectorizer
 │   ├── routes/
-│   │   └── upload.py
+│   │   └── upload.py             # Video analysis API routes
 │   └── services/
-│       ├── audio_extractor.py
-│       ├── category_detector.py
-│       ├── classifier.py
-│       ├── deepfake_detector.py
-│       ├── explainer.py
-│       ├── keyword_checker.py
-│       ├── ocr_extractor.py
-│       ├── preprocessing.py
-│       ├── report_generator.py
-│       └── transcriber.py
+│       ├── audio_extractor.py    # Audio extraction
+│       ├── category_detector.py  # Content categorization
+│       ├── classifier.py         # Misinformation classification
+│       ├── deepfake_detector.py  # Deepfake detection module
+│       ├── explainer.py          # Analysis explanations
+│       ├── keyword_checker.py    # Suspicious keyword analysis
+│       ├── ocr_extractor.py      # Text extraction from frames
+│       ├── preprocessing.py      # Text preprocessing
+│       ├── report_generator.py   # Report generation
+│       └── transcriber.py        # Speech transcription
 │
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── index.css
-│   ├── package.json
-│   └── vite.config.js
+├── frontend/                     # React + Vite frontend
+│   ├── public/                   # Static assets
+│   └── src/
+│       ├── components/           # Reusable UI components
+│       ├── pages/                # Application pages
+│       ├── services/
+│       │   └── api.js            # Backend API integration
+│       ├── App.jsx               # Main React component
+│       ├── App.css               # Application styling
+│       └── index.css             # Global styling
 │
-├── requirements.txt
-├── render.yaml
-├── train_model.py
-└── README.md
+├── requirements.txt              # Python dependencies
+├── render.yaml                   # Render deployment configuration
+├── train_model.py                # Model training script
+└── README.md                     # Project documentation
 
 The structure above summarizes the principal files. Your repository may contain additional configuration and supporting files.
 
