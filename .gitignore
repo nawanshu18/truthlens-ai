@@ -1,0 +1,67 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Database
+*.db
+
+# Uploads
+uploads/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Generated files
+temp_audio/
+uploads/
+videos.db
+
+venv/
+pycache/
+*.py[cod]
+.DS_Store
+.env
+uploads/
+temp_audio/
+reports/
+videos.db
+*.db
+frontend/node_modules/
+frontend/dist/
+
+Training datasets - keep locally, don’t upload to GitHub
+
+dataset/dataset/
+dataset/
+dataset/
+dataset/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded videos and generated files
+uploads/
+temp_audio/
+reports/
+videos.db
+*.db
+
+# Frontend build files
+frontend/node_modules/
+frontend/dist/
