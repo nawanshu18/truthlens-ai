@@ -29,31 +29,7 @@ TruthLens AI is an AI-powered web application that analyzes short-form videos to
 * Database: SQLite
 * Deployment: Render and Vercel (if configured)
 
-🏗️ Project Architecture
 
-User
-  |
-  v
-React Frontend
-  |
-  v
-FastAPI Backend
-  |
-  v
-Video Processing
-  |
-  +--> Audio Extraction --> Faster Whisper
-  |
-  +--> Frame Text Extraction --> EasyOCR
-  |
-  v
-Text Processing
-  |
-  v
-Machine Learning Classification
-  |
-  v
-Analysis Results and Reports
 
 ⚙️ Installation and Setup
 
@@ -109,14 +85,6 @@ GET	/generate-report/{video_id}	Generate a report
 * Dedicated deepfake detection
 * Cloud storage and database integration
 
-👨‍💻 Contributors
 
-Add your project team members’ names and roll numbers here.
-
-📄 License
-
-No license has been specified for this project.
-
-⸻
 
 TruthLens AI — Analyze Responsibly. Verify Independently.
